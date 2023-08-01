@@ -1,7 +1,3 @@
-3.21
-
-
-
 <!DOCTYPE html>
 <html lang="vi">
    <head>
@@ -33,10 +29,10 @@
      
       <link rel='dns-prefetch' href='//s.w.org' />
       
-      <link rel='stylesheet' id='bootstrap-css' href='css/bootstrap.min.css?ver=5.7.2' media='all' />
-      <link rel='stylesheet' id='style-css' href='css/style.css?ver=5.7.2' media='all' />
-      <link rel='stylesheet' id='wp-block-library-css' href='css/style.min.css?ver=5.7.2' media='all' />
-      <script type='text/javascript' src='js/jquery.min.js?ver=5.7.2' id='halim-jquery-js'></script>
+      <link rel='stylesheet' id='bootstrap-css' href='{{asset('css/bootstrap.min.css')}}' media='all' />
+      <link rel='stylesheet' id='style-css' href='{{asset('css/style.css')}}' media='all' />
+      <link rel='stylesheet' id='wp-block-library-css' href='{{asset('css/style.min.css')}}' media='all' />
+      <script type='text/javascript' src='{{asset('js/jquery.min.js?ver=5.7.2')}}' id='halim-jquery-js'></script>
       <style type="text/css" id="wp-custom-css">
          .textwidget p a img {
          width: 100%;
@@ -928,10 +924,10 @@
       </footer>
       <div id='easy-top'></div>
      
-      <script type='text/javascript' src='js/bootstrap.min.js?ver=5.7.2' id='bootstrap-js'></script>
-      <script type='text/javascript' src='js/owl.carousel.min.js?ver=5.7.2' id='carousel-js'></script>
+      <script type='text/javascript' src='{{asset('js/bootstrap.min.js?ver=5.7.2')}}' id='bootstrap-js'></script>
+      <script type='text/javascript' src='{{asset('js/owl.carousel.min.js?ver=5.7.2')}}' id='carousel-js'></script>
      
-      <script type='text/javascript' src='js/halimtheme-core.min.js?ver=1626273138' id='halim-init-js'></script>
+      <script type='text/javascript' src='{{asset('js/halimtheme-core.min.js?ver=1626273138')}}' id='halim-init-js'></script>
       
      
      
